@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 800;
+}
+
+body{
+  background: #030321;
+  font-family: Arial;
+  
+  color: #FDB731;
+}
+
+svg {
+    display: block;
+    font-size: 15em;
+    font-family:serif;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+  text-shadow: 0px 0px 15px #e21212, 0px 0px 3px #defd31;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 4px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #ff0000;
+	animation-delay: -0.9s;
+}
+
+.text-copy:nth-child(2){
+	stroke: #ff6600;
+	animation-delay: -1.83s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #c2b500;
+	animation-delay: -2.7s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #327a11;
+	animation-delay: -3.63s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #1f42b4;
+	animation-delay: -4.56s;
+}
+
+.text-copy:nth-child(6){
+	stroke: #7c009b;
+	animation-delay: -5.5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+
+p{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+h1{
+  text-align: center;
+}
+img {
+width: 50%;
+margin-left: 25%;
+margin-right: 25%;
+}
+button {
+  background-color: #2d45b1; 
+  border: 1px solid #131269;
+  color: #161730;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 800;
+  border-radius: 4px;
+  float: left;
+  margin-top: 10px;
+}
